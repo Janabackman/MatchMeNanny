@@ -1,45 +1,45 @@
 [{
-    "name": "Phebbe",
+    "name": "Phoebe",
     "lastName":"Buffey",
     "time":"part-time",
-    "ocational": true,
-    "city":"New York",
-    "certificates":["CPR", "CCP"],
-    "image":"images/pheobe.jpg"
+    "ocassional": true,
+    "city":"new-york",
+    "certificates":["CPR ", "CCP "],
+    "image":"images/phoebe.jpg"
 },
 {
     "name":"Rachel",
     "lastName":"Green",
     "time":"full-time",
-    "ocational":false,
-    "city":"New York",
-    "certificates":["CPR"],
+    "ocassional":false,
+    "city":"new-york",
+    "certificates":["CPR "],
     "image":"images/rachel.png"
 },
 {
     "name":"Monica",
     "lastName":"Geller",
     "time":"full-time",
-    "ocational":true,
-    "city":"Philadelphia",
-    "certificates":["CPR", "CCP","CDA" ],
+    "ocassional":true,
+    "city":"philadelphia",
+    "certificates":["CPR ", "CCP ","CDA " ],
     "image":"images/monica.jpg"
 },
 {
     "name":"Pamela",
     "lastName":"Beesly",
     "time":"part-time",
-    "ocational":false,
-    "city":"Scranton",
-    "certificates":["CPR", "CDA"],
+    "ocassional":false,
+    "city":"scranton",
+    "certificates":["CPR ", "CDA "],
     "image":"images/pam.jpg"
 },
 {
     "name":"Angela",
     "lastName":"Martin",
     "time":"part-time",
-    "ocational":false,
-    "city":"Philadelphia",
+    "ocassional":false,
+    "city":"philadelphia",
     "certificates":["CPR"],
     "image":"images/angela.png"
 },
@@ -47,27 +47,27 @@
     "name":"Kelly",
     "lastName":"Kapoor",
     "time":"full-time",
-    "ocational":true,
-    "city":"Scranton",
-    "certificates":["CPR","CCP"],
+    "ocassional":true,
+    "city":"scranton",
+    "certificates":["CPR ","CCP "],
     "image":"images/kelly.jpg"
 },
 {
     "name":"Meredith",
     "lastName":"Palmer",
     "time":"part-time",
-    "ocational":false,
-    "city":"New York",
-    "certificates":[],
+    "ocassional":false,
+    "city":"new-york",
+    "certificates":["NONE"],
     "image":"images/meredith.jpg"
 },
 {
     "name":"Phyllis",
     "lastName":"Vance",
     "time":"full-time",
-    "ocational":false,
-    "city":"Scranton",
-    "certificates":["CPR","CCP","CDA"],
+    "ocassional":false,
+    "city":"scranton",
+    "certificates":["CPR ","CCP ","CDA "],
     "image":"images/phyllis.jpg"
 }
 ]

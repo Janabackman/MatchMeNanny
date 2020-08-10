@@ -11,7 +11,7 @@
 <body>
   <div id = "header">
     <img src= "images/logo.png" alt= "logo of the company">
-    <h1>Welcome to MmN!!</h1>    
+    <h1>Welcome to MmN!!</h1>   
     </div>   
     <div id = "main-content" class = "main-content">
         <p>Need a nanny for your children, but you are not sure you can leave them in starnger hands?</p>
@@ -20,7 +20,7 @@
         <button class = "button" id= "start" type ="button">Start</button>
     </div>
     <div class="hide" id="form1">
-        <form>
+        <form id = "main-form">
             <div id= "name">
             <div class="form-e">
             <label for="fname">First name:</label>
@@ -36,9 +36,9 @@
             <label for="city">City</label>
             <select name="city" id="city">
                 <option value="" disabled selected>Choose a city</option>
-                <option value="New York" id = "new-york">New York City, NY</option>
-                <option value="Philadelphia" id = "new-york">Philadelphia, PA</option>
-                <option value="Scranton" id = "new-york">Scranton, PA</option>
+                <option value="new-york" id = "new-york">New York City, NY</option>
+                <option value="philadelphia" id = "philadelphia">Philadelphia, PA</option>
+                <option value="scranton" id = "scranton">Scranton, PA</option>
             </select> 
             </div>
 
@@ -63,7 +63,7 @@
             <div class = "hide" id = "age" >
                 <div>
                 <label for="years-old">Age of child:</label>
-                <input type="number" class = "number" id="years-old" name="yearsOld" min = "0">
+                <input type="number" class = "number child-age" id="years-old" name="yearsOld" min = "0">
                 </div>
                 <div class = "add"><p>Add Child +</p></div>
             </div>
@@ -75,11 +75,12 @@
             </div>
             
             <div id = "submit">
-            <button  id = "s-button" class = "button" type ="submit" disabled>Submit</button>
+            <button  id = "s-button" class = "button" type ="submit">Submit</button>
             </div>
         </form>
             
     </div>
+    <div id = "results"></div>
 
 </body>
 </html>
