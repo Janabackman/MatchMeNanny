@@ -1,2 +1,2 @@
 # MatchMeNanny 
-A website that helps parents find their kids professional Nanny. 
+A website that helps parents find their kids a professional Nanny. 
