@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery.js" charset="utf-8"></script>
+    <script type="text/javascript" src="script.js" charset="utf-8"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Match me Nanny</title>
+</head>
+<body>
+  <div id = "header">
+    <img src= "images/logo.png" alt= "logo of the company">
+    <h1>Welcome to MmN!!</h1>    
+    </div>   
+    <div id = "main-content" class = "main-content">
+        <p>Need a nanny for your children, but you are not sure you can leave them in starnger hands?</p>
+        <p>Match me Nanny has the best solution for you tell us what you need and we will find you the best match for your little ones</p>
+        <p>We have proffesional nannies from all over the country. You just have let us knew what are your requirement and we would match you right up.</p>
+        <button class = "button" id= "start" type ="button">Start</button>
+    </div>
+    <div class="hide" id="form1">
+        <form>
+            <div id= "name">
+            <div class="form-e">
+            <label for="fname">First name:</label>
+            <input type="text" placeholder="Enter your first name" id="fname" name="fname" class="text"><br>  
+            </div>
+            <div class="form-e">    
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" placeholder="Enter your last name" name="lname" class="text"><br> 
+            </div>
+            </div>
+            
+            <div id = "city" class="form-e">
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <option value="" disabled selected>Choose a city</option>
+                <option value="New York" id = "new-york">New York City, NY</option>
+                <option value="Philadelphia" id = "new-york">Philadelphia, PA</option>
+                <option value="Scranton" id = "new-york">Scranton, PA</option>
+            </select> 
+            </div>
+
+            <div id = "schedule" class= "form-e">
+           <div id="side1"> <label>Prefered Schedule: </label><br></div>
+                <div id = "side2">
+                <div class = "inline">
+                <input type="radio" id = "part-time" name="schedule" value="part-time">
+                <label for="part-time">Part-Time</label><br>
+                </div>
+                <div class = "inline">       
+                <input type="radio" id = "full-time" name="schedule" value="full-time">
+                <label for="full-time">Full-Time</label><br>
+                </div>
+                </div>
+            </div>
+            
+            <div class = "form-e" >
+                <label for="amount">Amount of children for care:</label>
+                <input type="number" class = "number" id="amount" name="amount" min = "0">
+            </div>
+            <div class = "hide" id = "age" >
+                <div>
+                <label for="years-old">Age of child:</label>
+                <input type="number" class = "number" id="years-old" name="yearsOld" min = "0">
+                </div>
+                <div class = "add"><p>Add Child +</p></div>
+            </div>
+
+
+            <div id = "ocational-sitting" class = "form-e">
+            <input type="checkbox" id="ocassional" name="ocassional" value="ocassional">
+            <label for="ocassional">Need ocassional baby-sitting?</label><br>
+            </div>
+            
+            <div id = "submit">
+            <button  id = "s-button" class = "button" type ="submit" disabled>Submit</button>
+            </div>
+        </form>
+            
+    </div>
+
+</body>
+</html>

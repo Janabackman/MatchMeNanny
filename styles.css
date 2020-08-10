@@ -1,0 +1,101 @@
+body{
+    background-color: bisque;
+    height: 0px;
+}
+#header{
+    position: fixed;
+    background-color: white;
+    min-width: 1070px;
+    height: 116px;
+    left: 0;
+    right:0;
+    text-align: center;
+    margin-bottom: 15px;;
+}
+img{
+    position: absolute;
+    display: inline-block;
+    left:180px;
+}
+h1{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    margin-left: -186px;
+    min-width: 372px;
+    font-size: 40px;
+    font-family: "Century Gothic", sans-serif;
+}
+.main-content {
+    position: relative;
+    width: 450px;
+    border: 2px solid black;
+    margin: auto;
+    height: auto;
+    background-color: white;
+    top:125px;
+    z-index: -1;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+}
+#main-content p{
+    width: 400px;
+    margin: auto;
+    padding: 1em;
+}
+.button{
+    margin-top: 25px;
+    padding: 10px;
+    font-family: "Century Gothic", sans-serif;
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+.button:hover{
+    display: inline-block;
+    background-color: wheat;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+form{
+    padding: 3em;
+    text-align: left;
+}
+#submit{
+    text-align: center;
+}
+.form-e{
+    padding: 10px;
+}
+input{
+    height: 17px;
+}
+.text{ 
+    position: absolute;
+    left: 12em;
+}
+
+select{
+    padding: 2px;
+   position: absolute;
+   left: 12em;
+}
+#schedule{
+    width: auto;
+}
+#side1, #side2{
+    display: inline-grid;
+}
+.inline{
+    display: inline;
+}
+.number{
+    width: 35px;
+}
+.add{
+    font-size: 10px;
+    color: gray;
+    cursor: pointer;
+}
+

@@ -1,0 +1,73 @@
+[{
+    "name": "Phebbe",
+    "lastName":"Buffey",
+    "time":"part-time",
+    "ocational": true,
+    "city":"New York",
+    "certificates":["CPR", "CCP"],
+    "image":"images/pheobe.jpg"
+},
+{
+    "name":"Rachel",
+    "lastName":"Green",
+    "time":"full-time",
+    "ocational":false,
+    "city":"New York",
+    "certificates":["CPR"],
+    "image":"images/rachel.png"
+},
+{
+    "name":"Monica",
+    "lastName":"Geller",
+    "time":"full-time",
+    "ocational":true,
+    "city":"Philadelphia",
+    "certificates":["CPR", "CCP","CDA" ],
+    "image":"images/monica.jpg"
+},
+{
+    "name":"Pamela",
+    "lastName":"Beesly",
+    "time":"part-time",
+    "ocational":false,
+    "city":"Scranton",
+    "certificates":["CPR", "CDA"],
+    "image":"images/pam.jpg"
+},
+{
+    "name":"Angela",
+    "lastName":"Martin",
+    "time":"part-time",
+    "ocational":false,
+    "city":"Philadelphia",
+    "certificates":["CPR"],
+    "image":"images/angela.png"
+},
+{
+    "name":"Kelly",
+    "lastName":"Kapoor",
+    "time":"full-time",
+    "ocational":true,
+    "city":"Scranton",
+    "certificates":["CPR","CCP"],
+    "image":"images/kelly.jpg"
+},
+{
+    "name":"Meredith",
+    "lastName":"Palmer",
+    "time":"part-time",
+    "ocational":false,
+    "city":"New York",
+    "certificates":[],
+    "image":"images/meredith.jpg"
+},
+{
+    "name":"Phyllis",
+    "lastName":"Vance",
+    "time":"full-time",
+    "ocational":false,
+    "city":"Scranton",
+    "certificates":["CPR","CCP","CDA"],
+    "image":"images/phyllis.jpg"
+}
+]
