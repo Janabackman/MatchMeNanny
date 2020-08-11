@@ -115,19 +115,20 @@ $(function() {
                     let p1Text = '<p>Name: '+ nanny.name +'</p>';
                     let p2Text = '<p>Last Name: '+ nanny.lastName+'</p>';
                     let p3Text = '<p>City: '+nanny.city+'</p>';
-                    let divP = $('<div class= "nanny-info">')
-                    divP.html(p1Text+p2Text+p3Text);
+                    let p4Text = '<p>Years of Experience: '+nanny.yearsExp+'</p>';
+                    let divP = $('<div class= "nanny-info">');
+                    divP.html(p1Text+p2Text+p3Text+p4Text);
+                   
 
-                    let p4 = $('<p>Certificates: </p>');
+                    let p5 = $('<p>Certificates: </p>');
                     for (let cert of nanny.certificates){
                         let span = $('<span>');
                         span.html(cert);
-                        p4.append(span);
+                        p5.append(span);
                     }
-                    
+                    divP.append(p5);
                     newNanny.append(img);
                     newNanny.append(divP);
-                    newNanny.append(p4);
                     results.append(newNanny);
                     validateNanny = true;
                }
