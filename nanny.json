@@ -7,7 +7,7 @@
     "certificates":["CPR ", "CCP "],
     "image":"images/phoebe.jpg",
     "yearsExp":4,
-    "phone":"954-664-8273",
+    "phone":"9546648273",
     "email":"phoebe@matchmenanny.com"
 },
 {
@@ -19,7 +19,7 @@
     "certificates":["CPR "],
     "image":"images/rachel.png",
     "yearsExp":2,
-    "phone":"954-664-6788",
+    "phone":"9546646788",
     "email":"rachel@matchmenanny.com"
     
 },
@@ -32,7 +32,7 @@
     "certificates":["CPR ", "CCP ","CDA " ],
     "image":"images/monica.jpg",
     "yearsExp":6,
-    "phone":"954-664-3367",
+    "phone":"9546643367",
     "email":"monica@matchmenanny.com"
 },
 {
@@ -44,7 +44,7 @@
     "certificates":["CPR ", "CDA "],
     "image":"images/pam.jpg",
     "yearsExp":3,
-    "phone":"954-766-8976",
+    "phone":"9547668976",
     "email":"pamela@matchmenanny.com"
 },
 {
@@ -56,7 +56,7 @@
     "certificates":["CPR"],
     "image":"images/angela.png",
     "yearsExp":6,
-    "phone":"954-664-4466",
+    "phone":"9546644466",
     "email":"angela@matchmenanny.com"
 },
 {
@@ -68,7 +68,7 @@
     "certificates":["CPR ","CCP "],
     "image":"images/kelly.jpg",
     "yearsExp":2,
-    "phone":"954-664-4433",
+    "phone":"9546644433",
     "email":"kelly@matchmenanny.com"
 },
 {
@@ -80,7 +80,7 @@
     "certificates":["NONE"],
     "image":"images/meredith.jpg",
     "yearsExp":1,
-    "phone":"954-664-2233",
+    "phone":"9546642233",
     "email":"meredith@matchmenanny.com"
 },
 {
@@ -92,7 +92,7 @@
     "certificates":["CPR ","CCP ","CDA "],
     "image":"images/phyllis.jpg",
     "yearsExp":7,
-    "phone":"954-664-8273",
+    "phone":"9546648273",
     "email":"phillis@matchmenanny.com"
 }
 ]

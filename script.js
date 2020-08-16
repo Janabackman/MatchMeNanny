@@ -129,8 +129,43 @@ $(function() {
                     divP.append(p5);
                     newNanny.append(img);
                     newNanny.append(divP);
+
+
+                    let contactInfo = $('<div>');
+                    contactInfo.addClass('contact-info')
+                    let contactButton = $('<button class = "button contact" type ="button">Contact</button>');
+                    contactInfo.append(contactButton);
+                    newNanny.append(contactInfo);
+
                     results.append(newNanny);
+
+                    let contact = $('<div>');
+                    contact.addClass('hide');
+                    let email = $('<a>');
+                    email.html('E-mail-me: '+ nanny.email);
+                    email.attr('href', 'mailto:'+nanny.email);
+                    let phone = $('<a>');
+                    phone.html('<br>Text me: '+nanny.phone);
+                    phone.attr('href', 'sms:+1'+nanny.phone);
+
+                    contact.append(email);
+                    contact.append(phone);
+                    contactInfo.append(contact);
+
                     validateNanny = true;
+
+                    let nannyArray = $('.nanny');
+                    for (let i = 0; i<nannyArray.length; ++i){
+                        $('.contact').eq(i).on('click', function(e){
+                            let x = $(this).parent().find(contact);
+                            if (x.hasClass('hide')){
+                                x.removeClass('hide');
+                            }
+                            else{
+                                x.addClass('hide');
+                            }
+                        });
+                    }
                }
             }
             if (validateNanny === false){

@@ -108,17 +108,23 @@ select{
     font-family: "Century Gothic", sans-serif;
     margin: 15px;
     z-index: -1;
+    
 }
 .nanny{
     min-width: 330px;
-    height: 300px;
+    min-height: 300px;
     background-color: white;
     text-align: left;
     border: 2px solid black;
     display: inline-block;
-    padding: 10px;;
+    padding: 10px;
     margin: 15px;
     vertical-align: top;
+    transition: all .7s ease;
+}
+.nanny:hover{
+    transform: scale(1.10);
+    border:3px solid maroon;
 }
 .nanny .nanny-info{
     padding: 0;
@@ -126,8 +132,21 @@ select{
     vertical-align: top;
 }
 .nanny img{
-    border: 3px outset;
+    border: 1px solid black;
+    border-radius: 50%;
     display: inline-block;
     vertical-align: top;
     margin-right: 5px;
+}
+.contact-info{
+    text-align: center;
+}
+.contact, .contact:hover{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.contact-info a{
+    font-size: 10px;
 }
