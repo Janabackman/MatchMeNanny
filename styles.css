@@ -10,7 +10,7 @@ body{
     left: 0;
     right:0;
     text-align: center;
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
 }
 #header img{
     position: absolute;
@@ -81,6 +81,7 @@ select{
    position: absolute;
    left: 12em;
 }
+
 #schedule{
     width: auto;
 }
@@ -98,7 +99,12 @@ select{
     color: gray;
     cursor: pointer;
 }
-#results{
+input:hover, select:hover {
+    border: 1.5px solid green;
+    background-color:	#D3D3D3;
+}
+
+#results, #results2{
     position: relative;
     width: auto;
     margin: auto;
@@ -108,7 +114,6 @@ select{
     font-family: "Century Gothic", sans-serif;
     margin: 15px;
     z-index: -1;
-    
 }
 .nanny{
     min-width: 330px;
@@ -120,10 +125,10 @@ select{
     padding: 10px;
     margin: 15px;
     vertical-align: top;
-    transition: all .7s ease;
+    transition: all .5s ease;
 }
 .nanny:hover{
-    transform: scale(1.10);
+    transform: scale(1.03);
     border:3px solid maroon;
 }
 .nanny .nanny-info{
@@ -149,4 +154,14 @@ select{
 }
 .contact-info a{
     font-size: 10px;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  line-height: 3px;
+  z-index: -2;
 }

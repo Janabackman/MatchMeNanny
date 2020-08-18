@@ -14,9 +14,9 @@
     <h1>Welcome to MmN!!</h1>   
     </div>   
     <div id = "main-content" class = "main-content">
-        <p>Need a nanny for your children, but you are not sure you can leave them in starnger hands?</p>
-        <p>Match me Nanny has the best solution for you tell us what you need and we will find you the best match for your little ones</p>
-        <p>We have proffesional nannies from all over the country. You just have let us knew what are your requirement and we would match you right up.</p>
+        <p>Need a nanny for your children, but you are not sure you can leave them in stranger hands?</p>
+        <p>Match me Nanny has the best solution for you tell us what you need, and we will find you the best match for your little ones</p>
+        <p>We have professional nannies from all over the country. You just have let us know what your requirement are, and we would match you right up.</p>
         <button class = "button" id= "start" type ="button">Start</button>
     </div>
     <div class="hide" id="form1">
@@ -32,7 +32,7 @@
             </div>
             </div>
             
-            <div id = "city" class="form-e">
+            <div id = "address" class="form-e">
             <label for="city">City</label>
             <select name="city" id="city">
                 <option value="" disabled selected>Choose a city</option>
@@ -43,7 +43,7 @@
             </div>
 
             <div id = "schedule" class= "form-e">
-           <div id="side1"> <label>Prefered Schedule: </label><br></div>
+           <div id="side1"> <label>Preferred Schedule: </label><br></div>
                 <div id = "side2">
                 <div class = "inline">
                 <input type="radio" id = "part-time" name="schedule" value="part-time">
@@ -57,7 +57,7 @@
             </div>
             
             <div class = "form-e" >
-                <label for="amount">Amount of children for care:</label>
+                <label for="amount">Number of children for care:</label>
                 <input type="number" class = "number" id="amount" name="amount" min = "0">
             </div>
             <div class = "hide" id = "age" >
@@ -71,16 +71,23 @@
 
             <div id = "ocational-sitting" class = "form-e">
             <input type="checkbox" id="ocassional" name="ocassional" value="ocassional">
-            <label for="ocassional">Need ocassional baby-sitting?</label><br>
+            <label for="ocassional">Need occasional baby-sitting?</label><br>
             </div>
             
             <div id = "submit">
-            <button  id = "s-button" class = "button" type ="submit">Submit</button>
+            <button  id = "s-button" class = "button" type ="submit" disabled>Submit</button>
             </div>
         </form>
             
     </div>
     <div id = "results"></div>
+    <div id = "results2"></div>
+    <footer><p>Copyright&#169; MatchmeNanny</p>
+    <p class= "address">10222 Dorrance St.</p>
+    <p class= "address">Philadelphia, PA 10146</p>
+    <p class = "address"><a href= mailto:mnn@matchmenanny.com>mnn@matchmenanny.com</a></p>
+</footer>
+    
 
 </body>
 </html>
